@@ -1,0 +1,13 @@
+{
+  "1358578051524595893": {
+    "enabled": true,
+    "channelId": "1358580439509500094",
+    "message": "Welcome to {server}, {user}! We hope you enjoy your stay.",
+    "useImage": true,
+    "color": "#7289DA",
+    "imageBackground": null,
+    "dmEnabled": false,
+    "dmMessage": "Welcome to {server}, {user}! We're glad to have you.",
+    "roleIds": []
+  }
+}

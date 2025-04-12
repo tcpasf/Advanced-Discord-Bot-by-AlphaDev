@@ -1,0 +1,38 @@
+{
+  "active": {
+    "1744412167564": {
+      "messageId": "1360387969092944123",
+      "channelId": "1358580439509500094",
+      "guildId": "1358578051524595893",
+      "prize": "6m",
+      "description": null,
+      "winnerCount": 3,
+      "endTime": 1744415766978,
+      "hostId": "1271985024823988254",
+      "participants": [
+        "1271985024823988254"
+      ],
+      "ended": false,
+      "requiredRoleId": null,
+      "id": "1744412167564"
+    },
+    "1744466829720": {
+      "messageId": "1360617241489707018",
+      "channelId": "1358579679677649007",
+      "guildId": "1358578051524595893",
+      "prize": "test",
+      "description": null,
+      "winnerCount": 3,
+      "endTime": 1744470429125,
+      "hostId": "1271985024823988254",
+      "participants": [
+        "1271985024823988254",
+        "931651476722421790"
+      ],
+      "ended": false,
+      "requiredRoleId": null,
+      "id": "1744466829720"
+    }
+  },
+  "ended": {}
+}

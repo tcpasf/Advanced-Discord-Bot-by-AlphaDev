@@ -1,0 +1,294 @@
+{
+  "common": {
+    "success": "Succès",
+    "error": "Erreur",
+    "warning": "Avertissement",
+    "info": "Information",
+    "note": "Note",
+    "yes": "Oui",
+    "no": "Non",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "back": "Retour",
+    "next": "Suivant",
+    "loading": "Chargement...",
+    "processing": "Traitement en cours..."
+  },
+  "errors": {
+    "command_error": "Une erreur s'est produite lors de l'exécution de cette commande!",
+    "button_error": "Une erreur s'est produite lors du traitement de ce bouton!",
+    "menu_error": "Une erreur s'est produite lors du traitement de cette sélection de menu!",
+    "form_error": "Une erreur s'est produite lors du traitement de votre soumission!",
+    "permission_error": "Vous n'avez pas la permission d'utiliser cette commande!",
+    "bot_permission_error": "Je n'ai pas la permission d'effectuer cette action!",
+    "invalid_user": "Utilisateur invalide spécifié!",
+    "invalid_channel": "Canal invalide spécifié!",
+    "invalid_role": "Rôle invalide spécifié!",
+    "invalid_input": "Entrée invalide fournie!"
+  },
+  "admin": {
+    "ban": {
+      "success": "L'utilisateur a été banni!",
+      "error": "Échec du bannissement de l'utilisateur!",
+      "reason": "Raison",
+      "banned_by": "Banni par",
+      "no_permission": "Vous n'avez pas la permission de bannir des utilisateurs!"
+    },
+    "kick": {
+      "success": "L'utilisateur a été expulsé!",
+      "error": "Échec de l'expulsion de l'utilisateur!",
+      "reason": "Raison",
+      "kicked_by": "Expulsé par",
+      "no_permission": "Vous n'avez pas la permission d'expulser des utilisateurs!"
+    },
+    "mute": {
+      "success": "L'utilisateur a été mis en sourdine!",
+      "error": "Échec de la mise en sourdine de l'utilisateur!",
+      "reason": "Raison",
+      "muted_by": "Mis en sourdine par",
+      "duration": "Durée",
+      "no_permission": "Vous n'avez pas la permission de mettre des utilisateurs en sourdine!"
+    },
+    "timeout": {
+      "success": "L'utilisateur a été mis en timeout!",
+      "error": "Échec de la mise en timeout de l'utilisateur!",
+      "reason": "Raison",
+      "timed_out_by": "Mis en timeout par",
+      "duration": "Durée",
+      "no_permission": "Vous n'avez pas la permission de mettre des utilisateurs en timeout!"
+    },
+    "warn": {
+      "success": "L'utilisateur a été averti!",
+      "error": "Échec de l'avertissement de l'utilisateur!",
+      "reason": "Raison",
+      "warned_by": "Averti par",
+      "no_permission": "Vous n'avez pas la permission d'avertir des utilisateurs!"
+    }
+  },
+  "tickets": {
+    "create": {
+      "success": "Ticket créé avec succès!",
+      "error": "Échec de la création du ticket!",
+      "already_has_ticket": "Vous avez déjà un ticket ouvert!",
+      "select_category": "Veuillez sélectionner une catégorie pour votre ticket",
+      "ticket_created": "Votre ticket a été créé",
+      "ticket_created_description": "Un membre du personnel vous assistera sous peu."
+    },
+    "close": {
+      "success": "Ticket fermé avec succès!",
+      "error": "Échec de la fermeture du ticket!",
+      "reason": "Raison de la fermeture",
+      "closed_by": "Fermé par",
+      "confirm_close": "Êtes-vous sûr de vouloir fermer ce ticket?"
+    }
+  },
+  "economy": {
+    "balance": {
+      "title": "Solde",
+      "wallet": "Portefeuille",
+      "bank": "Banque",
+      "total": "Total"
+    },
+    "daily": {
+      "success": "Vous avez réclamé votre récompense quotidienne!",
+      "already_claimed": "Vous avez déjà réclamé votre récompense quotidienne!",
+      "wait_time": "Vous pouvez réclamer à nouveau dans {time}",
+      "amount": "Montant"
+    },
+    "work": {
+      "success": "Vous avez travaillé et gagné {amount} pièces!",
+      "cooldown": "Vous devez vous reposer avant de travailler à nouveau!",
+      "wait_time": "Vous pouvez travailler à nouveau dans {time}"
+    }
+  },
+  "games": {
+    "tictactoe": {
+      "title": "Morpion",
+      "your_turn": "C'est votre tour!",
+      "opponent_turn": "En attente de l'adversaire...",
+      "you_won": "Vous avez gagné!",
+      "you_lost": "Vous avez perdu!",
+      "draw": "Match nul!",
+      "challenge": "{challenger} a défié {opponent} à une partie de Morpion!",
+      "accept_challenge": "Accepter le défi",
+      "decline_challenge": "Décliner"
+    },
+    "rps": {
+      "title": "Pierre Papier Ciseaux",
+      "rock": "Pierre",
+      "paper": "Papier",
+      "scissors": "Ciseaux",
+      "you_chose": "Vous avez choisi {choice}",
+      "opponent_chose": "L'adversaire a choisi {choice}",
+      "you_won": "Vous avez gagné!",
+      "you_lost": "Vous avez perdu!",
+      "draw": "Match nul!",
+      "challenge": "{challenger} a défié {opponent} à Pierre Papier Ciseaux!",
+      "accept_challenge": "Accepter le défi",
+      "decline_challenge": "Décliner"
+    }
+  },
+  "welcome": {
+    "new_member": "Bienvenue sur le serveur!",
+    "member_count": "Vous êtes le membre n°{count}",
+    "setup": {
+      "success": "Le système de bienvenue a été configuré!",
+      "channel": "Canal de bienvenue",
+      "message": "Message de bienvenue",
+      "image": "Image de bienvenue",
+      "roles": "Rôles automatiques"
+    }
+  },
+  "language": {
+    "changed": "La langue du bot a été définie sur le français.",
+    "note": "Toutes les réponses du bot seront désormais en français."
+  },
+  "common": {
+    "success": "Succès",
+    "error": "Erreur",
+    "warning": "Avertissement",
+    "info": "Information",
+    "note": "Note",
+    "yes": "Oui",
+    "no": "Non",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "back": "Retour",
+    "next": "Suivant",
+    "loading": "Chargement...",
+    "processing": "Traitement en cours..."
+  },
+  "errors": {
+    "command_error": "Une erreur s'est produite lors de l'exécution de cette commande!",
+    "button_error": "Une erreur s'est produite lors du traitement de ce bouton!",
+    "menu_error": "Une erreur s'est produite lors du traitement de cette sélection de menu!",
+    "form_error": "Une erreur s'est produite lors du traitement de votre soumission!",
+    "permission_error": "Vous n'avez pas la permission d'utiliser cette commande!",
+    "bot_permission_error": "Je n'ai pas la permission d'effectuer cette action!",
+    "invalid_user": "Utilisateur invalide spécifié!",
+    "invalid_channel": "Canal invalide spécifié!",
+    "invalid_role": "Rôle invalide spécifié!",
+    "invalid_input": "Entrée invalide fournie!"
+  },
+  "admin": {
+    "ban": {
+      "success": "L'utilisateur a été banni!",
+      "error": "Échec du bannissement de l'utilisateur!",
+      "reason": "Raison",
+      "banned_by": "Banni par",
+      "no_permission": "Vous n'avez pas la permission de bannir des utilisateurs!"
+    },
+    "kick": {
+      "success": "L'utilisateur a été expulsé!",
+      "error": "Échec de l'expulsion de l'utilisateur!",
+      "reason": "Raison",
+      "kicked_by": "Expulsé par",
+      "no_permission": "Vous n'avez pas la permission d'expulser des utilisateurs!"
+    },
+    "mute": {
+      "success": "L'utilisateur a été mis en sourdine!",
+      "error": "Échec de la mise en sourdine de l'utilisateur!",
+      "reason": "Raison",
+      "muted_by": "Mis en sourdine par",
+      "duration": "Durée",
+      "no_permission": "Vous n'avez pas la permission de mettre des utilisateurs en sourdine!"
+    },
+    "timeout": {
+      "success": "L'utilisateur a été mis en timeout!",
+      "error": "Échec de la mise en timeout de l'utilisateur!",
+      "reason": "Raison",
+      "timed_out_by": "Mis en timeout par",
+      "duration": "Durée",
+      "no_permission": "Vous n'avez pas la permission de mettre des utilisateurs en timeout!"
+    },
+    "warn": {
+      "success": "L'utilisateur a été averti!",
+      "error": "Échec de l'avertissement de l'utilisateur!",
+      "reason": "Raison",
+      "warned_by": "Averti par",
+      "no_permission": "Vous n'avez pas la permission d'avertir des utilisateurs!"
+    }
+  },
+  "tickets": {
+    "create": {
+      "success": "Ticket créé avec succès!",
+      "error": "Échec de la création du ticket!",
+      "already_has_ticket": "Vous avez déjà un ticket ouvert!",
+      "select_category": "Veuillez sélectionner une catégorie pour votre ticket",
+      "ticket_created": "Votre ticket a été créé",
+      "ticket_created_description": "Un membre du personnel vous assistera sous peu."
+    },
+    "close": {
+      "success": "Ticket fermé avec succès!",
+      "error": "Échec de la fermeture du ticket!",
+      "reason": "Raison de la fermeture",
+      "closed_by": "Fermé par",
+      "confirm_close": "Êtes-vous sûr de vouloir fermer ce ticket?"
+    }
+  },
+  "economy": {
+    "balance": {
+      "title": "Solde",
+      "wallet": "Portefeuille",
+      "bank": "Banque",
+      "total": "Total"
+    },
+    "daily": {
+      "success": "Vous avez réclamé votre récompense quotidienne!",
+      "already_claimed": "Vous avez déjà réclamé votre récompense quotidienne!",
+      "wait_time": "Vous pouvez réclamer à nouveau dans {time}",
+      "amount": "Montant"
+    },
+    "work": {
+      "success": "Vous avez travaillé et gagné {amount} pièces!",
+      "cooldown": "Vous devez vous reposer avant de travailler à nouveau!",
+      "wait_time": "Vous pouvez travailler à nouveau dans {time}"
+    }
+  },
+  "games": {
+    "tictactoe": {
+      "title": "Morpion",
+      "your_turn": "C'est votre tour!",
+      "opponent_turn": "En attente de l'adversaire...",
+      "you_won": "Vous avez gagné!",
+      "you_lost": "Vous avez perdu!",
+      "draw": "Match nul!",
+      "challenge": "{challenger} a défié {opponent} à une partie de Morpion!",
+      "accept_challenge": "Accepter le défi",
+      "decline_challenge": "Décliner"
+    },
+    "rps": {
+      "title": "Pierre Papier Ciseaux",
+      "rock": "Pierre",
+      "paper": "Papier",
+      "scissors": "Ciseaux",
+      "you_chose": "Vous avez choisi {choice}",
+      "opponent_chose": "L'adversaire a choisi {choice}",
+      "you_won": "Vous avez gagné!",
+      "you_lost": "Vous avez perdu!",
+      "draw": "Match nul!",
+      "challenge": "{challenger} a défié {opponent} à Pierre Papier Ciseaux!",
+      "accept_challenge": "Accepter le défi",
+      "decline_challenge": "Décliner"
+    }
+  },
+  "welcome": {
+    "new_member": "Bienvenue sur le serveur!",
+    "member_count": "Vous êtes le membre n°{count}",
+    "setup": {
+      "success": "Le système de bienvenue a été configuré!",
+      "channel": "Canal de bienvenue",
+      "message": "Message de bienvenue",
+      "image": "Image de bienvenue",
+      "roles": "Rôles automatiques"
+    }
+  },
+  "language": {
+    "changed": "La langue du bot a été définie sur le français.",
+    "note": "Toutes les réponses du bot seront désormais en français."
+  }
+}

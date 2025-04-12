@@ -1,0 +1,301 @@
+{
+  "common": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information",
+    "note": "Note",
+    "yes": "Yes",
+    "no": "No",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "loading": "Loading...",
+    "processing": "Processing..."
+  },
+  "dashboard": {
+    "title": "Bot Dashboard",
+    "description": "Welcome to the dashboard for {botName}!\n\nThis bot offers a wide range of features to enhance your Discord server experience.",
+    "footer": "Developed by AlphaDev",
+    "stats": {
+      "title": "📊 Command Statistics",
+      "total": "Total Commands: **{total}**\n\n",
+      "category": "**{category}:** {count} commands",
+      "page_title": "Bot Statistics",
+      "bot_info": "🤖 Bot Info",
+      "bot_name": "**Name:** {botName}",
+      "bot_id": "**ID:** {botId}",
+      "bot_created": "**Created:** <t:{timestamp}:R>",
+      "bot_uptime": "**Uptime:** {uptime}",
+      "stats_title": "📊 Stats",
+      "servers": "**Servers:** {count}",
+      "users": "**Users:** {count}",
+      "channels": "**Channels:** {count}",
+      "commands_count": "**Commands:** {count}",
+      "categories_title": "📁 Command Categories",
+      "category_count": "**{category}:** {count}",
+      "system_title": "💻 System",
+      "os": "**OS:** {os}",
+      "memory": "**Memory:** {usage} used",
+      "nodejs": "**Node.js:** {version}",
+      "discordjs": "**Discord.js:** {version}"
+    },
+    "games": {
+      "title": "🎮 Games",
+      "features": "• Hangman\n• Rock Paper Scissors\n• Connect 4\n• Blackjack\n• Minesweeper\n• Tic Tac Toe"
+    },
+    "moderation": {
+      "title": "🛡️ Moderation",
+      "features": "• Ban/Kick/Mute\n• Warnings\n• Timeout\n• Channel Lock\n• Role Management"
+    },
+    "tickets": {
+      "title": "🎫 Ticket System",
+      "features": "• Custom Categories\n• User Management\n• Transcripts\n• Blacklist"
+    },
+    "welcome": {
+      "title": "👋 Welcome System",
+      "features": "• Custom Messages\n• Welcome Images\n• DM Messages\n• Auto Roles"
+    },
+    "giveaways": {
+      "title": "🎁 Giveaways",
+      "features": "• Custom Duration\n• Multiple Winners\n• Role Requirements\n• Rerolls"
+    },
+    "utility": {
+      "title": "⚙️ Utility",
+      "features": "• User Info\n• Server Info\n• Role Info\n• Avatar\n• Ping"
+    },
+    "buttons": {
+      "commands": "Commands Menu",
+      "games": "Games",
+      "welcome": "Welcome System",
+      "giveaways": "Giveaways",
+      "tickets": "Ticket System",
+      "moderation": "Moderation",
+      "utility": "Utility",
+      "stats": "Bot Stats",
+      "back": "Back to Dashboard"
+    },
+    "category": {
+      "title": "{emoji} {category} Commands",
+      "description": "Here are all the commands in the {category} category.",
+      "no_commands_title": "No Commands",
+      "no_commands_value": "This category has no commands.",
+      "command_group": "{group} Commands"
+    }
+  },
+  "help": {
+    "title": "{botName} Help",
+    "description": "Here are all the commands available in {botName}.",
+    "footer": "Developed by {developer}",
+    "commands": "Commands",
+    "default_category_description": "Here are all the commands in the {category} category.",
+    "category_not_found": "Category {category} not found.",
+    "categories": {
+      "admin": "Admin",
+      "public": "Public",
+      "games": "Games",
+      "economy": "Economy",
+      "tickets": "Tickets",
+      "welcome": "Welcome",
+      "giveaways": "Giveaways",
+      "info": "Information",
+      "verification": "Verification"
+    },
+    "buttons": {
+      "admin": "Admin",
+      "public": "Public",
+      "games": "Games",
+      "economy": "Economy",
+      "tickets": "Tickets",
+      "welcome": "Welcome",
+      "back": "Back to Help Menu"
+    }
+  },
+  "errors": {
+    "command_error": "There was an error while executing this command!",
+    "button_error": "There was an error processing this button!",
+    "menu_error": "There was an error processing this menu selection!",
+    "form_error": "There was an error processing your submission!",
+    "permission_error": "You don't have permission to use this command!",
+    "bot_permission_error": "I don't have permission to perform this action!",
+    "invalid_user": "Invalid user specified!",
+    "invalid_channel": "Invalid channel specified!",
+    "invalid_role": "Invalid role specified!",
+    "invalid_input": "Invalid input provided!"
+  },
+  "admin": {
+    "ban": {
+      "success": "User has been banned!",
+      "error": "Failed to ban user!",
+      "reason": "Reason",
+      "banned_by": "Banned by",
+      "no_permission": "You don't have permission to ban users!"
+    },
+    "kick": {
+      "success": "User has been kicked!",
+      "error": "Failed to kick user!",
+      "reason": "Reason",
+      "kicked_by": "Kicked by",
+      "no_permission": "You don't have permission to kick users!"
+    },
+    "mute": {
+      "success": "User has been muted!",
+      "error": "Failed to mute user!",
+      "reason": "Reason",
+      "muted_by": "Muted by",
+      "duration": "Duration",
+      "no_permission": "You don't have permission to mute users!"
+    },
+    "timeout": {
+      "success": "User has been timed out!",
+      "error": "Failed to timeout user!",
+      "reason": "Reason",
+      "timed_out_by": "Timed out by",
+      "duration": "Duration",
+      "no_permission": "You don't have permission to timeout users!"
+    },
+    "warn": {
+      "success": "User has been warned!",
+      "error": "Failed to warn user!",
+      "reason": "Reason",
+      "warned_by": "Warned by",
+      "no_permission": "You don't have permission to warn users!"
+    }
+  },
+  "tickets": {
+    "create": {
+      "success": "Ticket created successfully!",
+      "error": "Failed to create ticket!",
+      "already_has_ticket": "You already have an open ticket!",
+      "select_category": "Please select a category for your ticket",
+      "ticket_created": "Your ticket has been created",
+      "ticket_created_description": "A staff member will assist you shortly."
+    },
+    "close": {
+      "success": "Ticket closed successfully!",
+      "error": "Failed to close ticket!",
+      "reason": "Reason for closing",
+      "closed_by": "Closed by",
+      "confirm_close": "Are you sure you want to close this ticket?"
+    }
+  },
+  "economy": {
+    "balance": {
+      "title": "Balance",
+      "wallet": "Wallet",
+      "bank": "Bank",
+      "total": "Total"
+    },
+    "daily": {
+      "success": "You've claimed your daily reward!",
+      "already_claimed": "You've already claimed your daily reward!",
+      "wait_time": "You can claim again in {time}",
+      "amount": "Amount"
+    },
+    "work": {
+      "success": "You worked and earned {amount} coins!",
+      "cooldown": "You need to rest before working again!",
+      "wait_time": "You can work again in {time}"
+    }
+  },
+  "games": {
+    "tictactoe": {
+      "title": "Tic Tac Toe",
+      "your_turn": "It's your turn!",
+      "opponent_turn": "Waiting for opponent...",
+      "you_won": "You won!",
+      "you_lost": "You lost!",
+      "draw": "It's a draw!",
+      "challenge": "{challenger} has challenged {opponent} to a game of Tic Tac Toe!",
+      "accept_challenge": "Accept Challenge",
+      "decline_challenge": "Decline"
+    },
+    "rps": {
+      "title": "Rock Paper Scissors",
+      "rock": "Rock",
+      "paper": "Paper",
+      "scissors": "Scissors",
+      "you_chose": "You chose {choice}",
+      "opponent_chose": "Opponent chose {choice}",
+      "you_won": "You won!",
+      "you_lost": "You lost!",
+      "draw": "It's a draw!",
+      "challenge": "{challenger} has challenged {opponent} to Rock Paper Scissors!",
+      "accept_challenge": "Accept Challenge",
+      "decline_challenge": "Decline"
+    }
+  },
+  "welcome": {
+    "new_member": "Welcome to the server!",
+    "member_count": "You are member #{count}",
+    "setup": {
+      "success": "Welcome system has been set up!",
+      "channel": "Welcome Channel",
+      "message": "Welcome Message",
+      "image": "Welcome Image",
+      "roles": "Automatic Roles"
+    }
+  },
+  "language": {
+    "changed": "Bot language has been set to English.",
+    "note": "All bot responses will now be in English."
+  },
+  "auto_replies": {
+    "added": "Auto-reply added successfully!",
+    "edited": "Auto-reply updated successfully!",
+    "removed": "Auto-reply removed successfully!",
+    "not_found": "Auto-reply not found.",
+    "list_title": "Auto-Replies",
+    "list_empty": "No auto-replies have been set up yet.",
+    "details_title": "Auto-Reply Details",
+    "trigger": "Trigger",
+    "response": "Response",
+    "match_type": "Match Type",
+    "case_sensitive": "Case Sensitive",
+    "chance": "Chance",
+    "cooldown": "Cooldown",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "delete_original": "Delete Original",
+    "reply_in_dm": "Reply in DM"
+  },
+  "feedback": {
+    "setup_success": "Feedback system has been set up successfully!",
+    "suggestions_enabled": "Suggestions are now enabled in {channel}",
+    "feedback_enabled": "Feedback is now enabled in {channel}",
+    "submitted": "Your {type} has been submitted successfully!",
+    "not_enabled": "{type} are not enabled on this server.",
+    "suggestion_title": "Suggestion #{number}",
+    "feedback_title": "Feedback #{number}",
+    "comment_added": "Your comment has been added!",
+    "reply_added": "Your reply has been added!",
+    "status_updated": "Status updated to {status}",
+    "resolved": "Resolved",
+    "approved": "Approved",
+    "denied": "Denied",
+    "considered": "Under Consideration",
+    "pending": "Pending",
+    "anonymous": "Anonymous"
+  },
+  "ping": {
+    "title": "Pong!",
+    "description": "Bot latency and API response time information",
+    "bot_latency": "Bot Latency",
+    "api_latency": "API Latency",
+    "uptime": "Uptime",
+    "excellent": "Excellent",
+    "good": "Good",
+    "average": "Average",
+    "poor": "Poor",
+    "bad": "Bad",
+    "time": {
+      "days_short": "d",
+      "hours_short": "h",
+      "minutes_short": "m",
+      "seconds_short": "s"
+    }
+  }
+}

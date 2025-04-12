@@ -1,0 +1,62 @@
+{
+  "config": {
+    "1358578051524595893": {
+      "enabled": false,
+      "openCategory": "1358578051524595894",
+      "logChannel": "1358579679677649007",
+      "closedCategory": "1358579668072267916",
+      "transcriptCategory": "1358578051524595895",
+      "supportRoles": [],
+      "panelMessageId": "1360336625225433110",
+      "panelChannelId": "1358579810884124815"
+    }
+  },
+  "activeTickets": {
+    "0001": {
+      "id": "0001",
+      "channelId": "1360337245613064334",
+      "userId": "1271985024823988254",
+      "guildId": "1358578051524595893",
+      "subject": "/balance/balance",
+      "category": "other",
+      "priority": "high",
+      "createdAt": 1744400074627,
+      "closed": false,
+      "claimed": true,
+      "claimedBy": "1271985024823988254",
+      "claimedAt": 1744400084394
+    },
+    "0002": {
+      "id": "0002",
+      "channelId": "1360338916053614694",
+      "userId": "1271985024823988254",
+      "guildId": "1358578051524595893",
+      "subject": "qsdqsdsqdqsdqsdsqd",
+      "category": "other",
+      "priority": "high",
+      "createdAt": 1744400473008,
+      "closed": false,
+      "claimed": false,
+      "claimedBy": null
+    },
+    "0003": {
+      "id": "0003",
+      "channelId": "1360388103344361594",
+      "userId": "1271985024823988254",
+      "guildId": "1358578051524595893",
+      "subject": "hello testing waa",
+      "category": "billing",
+      "priority": "low",
+      "createdAt": 1744412200204,
+      "closed": false,
+      "claimed": true,
+      "claimedBy": "1271985024823988254",
+      "claimedAt": 1744412215549
+    }
+  },
+  "blacklist": {},
+  "tempTicketData": {},
+  "ticketCounts": {
+    "1358578051524595893": 3
+  }
+}

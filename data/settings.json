@@ -1,0 +1,23 @@
+{
+  "guilds": {
+    "1358578051524595893": {
+      "language": "en",
+      "prefix": "!",
+      "customCommands": {},
+      "disabledCommands": [],
+      "automod": {
+        "enabled": false,
+        "filters": {
+          "invites": false,
+          "links": false,
+          "caps": false,
+          "spam": false
+        }
+      }
+    }
+  },
+  "global": {
+    "version": "1.0.0",
+    "lastUpdated": 1744401010943
+  }
+}

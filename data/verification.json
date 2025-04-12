@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "1358578051524595893": {
+      "enabled": true,
+      "verificationChannelId": "1358579679677649007",
+      "logChannelId": null,
+      "verifiedRoleId": "1358579638451961928",
+      "unverifiedRoleId": "1360339342987628655",
+      "welcomeMessage": "Welcome to the server! Please verify yourself to access all channels.",
+      "method": "button",
+      "autoKick": false,
+      "autoKickTimeout": 1800000,
+      "verificationMessageId": "1360339379067031632"
+    }
+  },
+  "pendingVerifications": {},
+  "verifiedUsers": {
+    "1358578051524595893": {
+      "1271985024823988254": {
+        "timestamp": 1744400588167,
+        "method": "captcha"
+      }
+    }
+  },
+  "captchaSettings": {
+    "enabled": true,
+    "difficulty": "medium",
+    "expiry": 300000,
+    "maxAttempts": 3
+  },
+  "logs": []
+}

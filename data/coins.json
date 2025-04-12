@@ -1,0 +1,76 @@
+{
+  "users": {
+    "1358578051524595893": {
+      "1271985024823988254": {
+        "balance": 799,
+        "bank": 0,
+        "lastDaily": 1744400247692,
+        "lastWeekly": 1744400256728,
+        "lastWork": 1744400301096,
+        "lastMessage": 0,
+        "inventory": [],
+        "stats": {
+          "totalEarned": 799,
+          "totalSpent": 0,
+          "commandsUsed": 8
+        },
+        "dailyStreak": {
+          "count": 1,
+          "lastClaim": 1744400247693
+        },
+        "weeklyStreak": {
+          "count": 1,
+          "lastClaim": 1744400256728
+        },
+        "workStreak": {
+          "count": 1,
+          "lastWork": 1744400301097
+        }
+      }
+    }
+  },
+  "shop": {},
+  "transactions": [
+    {
+      "userId": "1271985024823988254",
+      "guildId": "1358578051524595893",
+      "amount": 100,
+      "type": "add",
+      "source": "daily",
+      "balance": 100,
+      "timestamp": 1744400247692
+    },
+    {
+      "userId": "1271985024823988254",
+      "guildId": "1358578051524595893",
+      "amount": 500,
+      "type": "add",
+      "source": "weekly",
+      "balance": 600,
+      "timestamp": 1744400256728
+    },
+    {
+      "userId": "1271985024823988254",
+      "guildId": "1358578051524595893",
+      "amount": 199,
+      "type": "add",
+      "source": "work",
+      "balance": 799,
+      "timestamp": 1744400301096
+    }
+  ],
+  "settings": {
+    "dailyAmount": 100,
+    "weeklyAmount": 500,
+    "workMinAmount": 50,
+    "workMaxAmount": 200,
+    "workCooldown": 3600000,
+    "dailyCooldown": 86400000,
+    "weeklyCooldown": 604800000,
+    "messageReward": 1,
+    "messageRewardCooldown": 60000,
+    "voiceReward": 5,
+    "voiceRewardCooldown": 60000
+  },
+  "leaderboard": {}
+}
